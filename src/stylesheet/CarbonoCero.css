@@ -1,0 +1,20 @@
+.carbonoCero{
+  width: 100%;
+  overflow: auto;
+}
+.carbonoCero img{
+  width: 50%;
+  position: absolute;
+  float: left;
+  margin: 10px;
+}
+/* .parrafo{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carbonoCero p{
+  display: block;
+  position: relative;
+} */

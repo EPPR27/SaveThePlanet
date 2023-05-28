@@ -1,0 +1,29 @@
+.carousel{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.flechaIzquierda{
+  width: 2vw;
+  height: 2vw;
+  border: 2.5vw solid;
+  border-color: black transparent transparent black;
+  transform: rotate(-45deg);
+}
+.flechaDerecha{
+  width: 2vw;
+  height: 2vw;
+  border: 2.5vw solid;
+  border-color: black transparent transparent black;
+  transform: rotate(135deg);
+}

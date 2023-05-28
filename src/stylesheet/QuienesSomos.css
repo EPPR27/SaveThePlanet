@@ -1,0 +1,14 @@
+.quienessomos{
+  margin: 50px 200px 50px;
+}
+.quienessomos h2{
+  margin-bottom: 20px;
+  font-size: 25pt;
+  font-weight: 1000;
+  text-align: center;
+}
+.quienessomos p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13pt;
+  text-align: justify;
+}

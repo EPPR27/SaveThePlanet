@@ -1,0 +1,9 @@
+.card-div{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+.card-div-card{
+  margin: 20px 0;
+}
