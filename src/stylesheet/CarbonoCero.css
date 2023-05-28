@@ -1,20 +1,28 @@
+.carbonoCero h1{
+  margin-bottom: 20px;
+  font-size: 25pt;
+  font-weight: 1000;
+  justify-content: center;
+  text-align: center;
+  color:green;
+}
 .carbonoCero{
   width: 100%;
   overflow: auto;
 }
 .carbonoCero img{
-  width: 50%;
-  position: absolute;
-  float: left;
-  margin: 10px;
-}
-/* .parrafo{
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 600px;
+  float: right;
+  margin: 2vh 1vw;
+  border-radius: 15px;
+  border: 5px dotted #09700c;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 .carbonoCero p{
-  display: block;
-  position: relative;
-} */
+  font-family: 'Roboto',sans-serif;
+  text-align: justify;
+  margin: 40px;
+}

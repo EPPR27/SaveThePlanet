@@ -11,8 +11,11 @@
 .footer-img img{
   width: 100%;
 }
+.footer-contacto{
+  font-family: 'Roboto',sans-serif;
+}
 .footer-contacto p{
-  margin: 5px;
+  margin: 6px;
 }
 .button {
   --bg: #e74c3c;

@@ -9,7 +9,7 @@ function Header () {
       <Link to='/'><img src={require('./imgs/logo-savetheplanet.png')} alt='logo-savetheplanet' /></Link>
       </div>
       <div className="header-h1">
-      <Link className="header-h1-link" to='/'><h1>savetheplanet</h1></Link>
+      <Link className="header-h1-link" to='/'><h1>SaveThePlanet</h1></Link>
       </div>
       <div className="header-link">
         <Link className="link" to='/logros'>Logros</Link>

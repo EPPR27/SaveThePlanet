@@ -1,8 +1,12 @@
-.card-form {
-  background-color: #fff;
-  margin: 50px auto;
+.container-form{
+  background-color: #b1cc1a;
+  padding:50px;
+}
+.card-form{
+  background-color: #ffff;
+  margin: 0px auto;
   border-radius: 10px;
-  padding: 150px;
+  padding: 100px;
   width: 350px;
   display: flex;
   justify-content: center;
@@ -10,9 +14,11 @@
 }
 
 .title {
-  font-size: 24px;
-  font-weight: 600;
+  margin: 0 0 50px 0;
+  font-size: 24pt;
+  font-weight: 1000;
   text-align: center;
+  font-family: 'Roboto',sans-serif;
 }
 
 .form {
@@ -68,7 +74,7 @@
   height: 50px;
 }
 
-.form button {
+.button-form {
   background-color: #3366cc;
   color: #fff;
   border: none;
@@ -79,7 +85,7 @@
   transition: all 0.3s ease;
 }
 
-.form button:hover {
+.button-form:hover {
   background-color: #27408b;
 }
 

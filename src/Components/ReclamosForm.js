@@ -32,7 +32,7 @@ function ReclamosForm () {
   return (
     <>
     <Header />
-    <div>
+    <div className="container-form">
     <div class="card-form">
       <span class="title">Reclamos y Denuncias</span>
       <form class="form">
@@ -66,14 +66,14 @@ function ReclamosForm () {
       <label for="email">Correo Electrónico</label>
     </div>
     <div class="group">
-      <input placeholder="" type="email" id="email" name="email" required="" />
+      <input placeholder="" type="text" id="phone" name="phone" required="" />
       <label for="email">Telefono</label>
     </div>
     <div class="group">
       <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
       <label for="comment">Descripción</label>
     </div>
-    <button type="submit">Enviar</button>
+    <button className="button-form" type="submit">Enviar</button>
   </form>
     </div>
     </div>
